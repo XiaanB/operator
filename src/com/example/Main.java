@@ -1,5 +1,7 @@
 package com.example;
 
+import java.io.FilterOutputStream;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,6 +24,16 @@ public class Main {
         result = result % 3;
         System.out.println("4 % 3 = " + result );
 
+        result++;
+        System.out.println("+ " + result);
 
+        result--;
+        System.out.println(" -  " + result);
+
+        result *= 10;
+        System.out.println(" * " + result);
+
+        result /= 3;
+        System.out.println(" / " + result);
     }
 }
